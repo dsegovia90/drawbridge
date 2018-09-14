@@ -25,7 +25,9 @@ Now manages all projects under a single GAE App ID. Each project is considered a
 ## Installing
 1. Clone repo
 1. Navigate to your newly cloned folder and run `sudo ./scripts/install`
+
 or
+
 1. Via curl with `curl -s https://raw.githubusercontent.com/leftfieldlabs/drawbridge/master/scripts/install | sh`
 
 ## Using and deploying
@@ -34,7 +36,8 @@ or
 1. Visit `[release]-dot-[app-id].appspot.com` to see your site
 
 ## Whitelisting
-1. Head to `[release]-dot-[app-id].appspot.com/admin` with your GCP email and add users or organizations.
+1. Head to `[release]-dot-[app-id].appspot.com/admin` with your GCP email.
+1. Add users or organizations.
 
 ## Updating
 Run `drawbridge update` from anywhere to get latest vault code
