@@ -31,7 +31,7 @@ or
 1. Via curl with `curl -s https://raw.githubusercontent.com/leftfieldlabs/drawbridge/master/scripts/install | sh`
 
 ## Using and deploying
-1. Create a Google Cloud Platform (GCP) project, but don't create an AppEngine instance. Must be project owner to deploy.
+1. Create a Google Cloud Platform (GCP) project, but don't create an AppEngine instance. Must be project owner or project editor to deploy.
 1. From inside the directory with all your site assets, run `drawbridge deploy [app-id] [release]`
 1. Visit `[release]-dot-[app-id].appspot.com` to see your site
 
